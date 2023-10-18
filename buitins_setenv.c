@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * shell_setenv - Sets the value of an environment variable
+ * shell_setenv - Set the value of an environment variable
  * @args: Arguments (name and value of the environment variable)
  *
  * Return: Nothing
@@ -28,7 +28,7 @@ int shell_setenv(char **args)
 }
 
 /**
- * shell_unsetenv - Unsets an environment variable
+ * shell_unsetenv - Unset an environment variable
  * @args: Arguments (name of the environment variable)
  *
  * Return: Nothing
